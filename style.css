@@ -42,38 +42,34 @@ a {
 
 .hero-container {
     display: flex;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    ;
-    justify-content: space-between;
+    padding: 90px;
+    justify-content: center;
     align-items: center;
     gap: 50px;
 }
 
 .hero-text-container {
-    flex: 2;
+    flex: 1;
 }
 
 .main-text-container {
     font-size: 48px;
     font-weight: bold;
     color: #f9FAF8;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
 }
 
 .secondary-text-container {
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 26px;
 }
 
-img {
-    width: auto;
-    height: 248px;
+.hero-container img {
     flex: 1;
 }
 
 .signup {
-    margin-top: 16px;
     background-color: #3882F6;
     padding: 10px;
     border: none;
@@ -83,4 +79,60 @@ img {
     border-radius: 8px;
     font-weight: bold;
     font-size: medium;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+    margin-top: 35px;
+    margin-bottom: 100px;
+}
+
+.boxes img {
+    border: 3px solid #4c8efa;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.box1 {
+    display: block;
+    text-align: center;
+    max-width: 156px;
+}
+
+.box2 {
+    display: block;
+    text-align: center;
+    max-width: 156px;
+}
+
+.box3 {
+    display: block;
+    text-align: center;
+    max-width: 156px;
+}
+
+.box4 {
+    display: block;
+    text-align: center;
+    max-width: 156px;
+}
+
+p {
+    color: gray;
 }
